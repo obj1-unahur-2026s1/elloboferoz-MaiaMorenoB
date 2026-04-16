@@ -11,3 +11,12 @@ object feroz {
   }
   method crisis() {peso = 10}
 }
+
+object cuento {
+  method transcurrir() {
+    feroz.corre()
+    feroz.comer(abuelita)
+    canasta.sacar(1)
+    feroz.comer(caperucita)
+  }
+}
